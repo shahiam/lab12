@@ -1,11 +1,11 @@
 from pydantic import BaseModel
 
 class Item():
-    name: int
+    name: int # changed int to str - rushil
     description: str
 
 class User(BaseModel):
-    username: str
+    username: str 
     bio: str
     
     # You can raise your hands and give the answer to the chocolate question
