@@ -44,20 +44,20 @@
 | 6   | in items.html, an entire container needed to be made                                            |    Sahishnu   |   Arjun      |
 | 7   | quiz.html has not been included in any navigation bar                                           |    Aaryan     |   Arjun      |
 | 8   | in items.js, lines 37 and 38 have been corrected, where "name" and "description" were changed   |    Rushil     |   Haaris     |
-|     | to "itemName" and "itemDescription".                                                            |    Arjun      |              |
+|     | to "itemName" and "itemDescription".                                                            |               |              |
 | 9   | in analytics.js, the baseURL should be "http://localhost:8000", not "http://localhost:8001"     |    Arjun      |   Arjun      |
 | 10  | in analytics.py, unnecessary initialisation of users list, should be empty                      |    Aaryan     |   Aaryan     |
 | 11  | in profile.js, in deleteBtn, method is supposed to be 'DELETE', not 'PATCH' (line 43)           |    Haaris     |   Arjun      |
-| 12  | in quiz.py, change line 44 to display a random question                                         |    Rushil     |              |
+| 12  | in quiz.py, change line 43 to display a random question                                         |    Rushil     |   Rushil     |
 | 13  | in users.py, there are two instances of @router.post("/") - change symbol/word for one of them  |    Sahishnu   |   Sahishnu   |
 | 14  | in analytics.py, was only saving the histogram; fix is to return the histogram                  |    Aaryan     |   Aaryan     |
 | 15  | in items.py, router is defined as empty dictionary; fix is to make it a router API function     |    Rushil     |   Aaryan     |
-| 16  | in items.py, there are two instances of @router.post("/") - change symbol/word for one of them  |    Haaris     |              |
+| 16  | in items.py, there are two instances of @router.post("/") - change symbol/word for one of them  |    Haaris     |   Rushil     |
 | 17  | in main.py, there was unnecessary block of code starting with @app.get("/home"); commented out  |    Aaryan     |   Haaris     |
-| 18  | in items.py, delete_one() called twice w/ different IDs; fix - delete 1 item per request        |    Sahishnu   |              |
+| 18  | in items.py, delete_one() called twice w/ different IDs; fix - delete 1 item per request        |    Sahishnu   |    Rushil    |
 | 19  | in analytics.js, line 15, plot changed to hist since hist is being returned in the file         |    Aaryan     |   Aaryan     |
-| 20  | in quiz.py, GET with body(data:dict) is invalid, so fix is to to convert to POST                |    Rushil     |   Sahishnu    |
-| 21  | in models.py, in item: name should be defined as 'str', NOT 'int'                               |    Rushil     |              |
+| 20  | in quiz.py, GET with body(data:dict) is invalid, so fix is to to convert to POST                |    Rushil     |   Sahishnu   |
+| 21  | in models.py, in item: name should be defined as 'str', NOT 'int'                               |    Rushil     |   Rushil     |
 | 22  | in users.py, line 30: .delete_one({"_id": ObjectId(user_id)}) corrected from .delete_all()      |   Sahishnu    |   Sahishnu   |
 | 23  | deleted home.js                                                                                 |    Haaris     |    Haaris    |
 | 24  | added id in class item in models.py                                                             |    Arjun      |    Aaryan    |
