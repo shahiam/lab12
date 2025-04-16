@@ -40,8 +40,7 @@
 | 2   | in index.html, the meTa charset should be UTF-8 encoded, not ISO-8859-1                         |    Haaris     |   Arjun      |
 | 3   | in profile.html, the script tag should contain scripts/profile.js, not styles/profile.js        |    Arjun      |   Sahishnu   |
 | 4   | there should be a navigation bar in analytics.html                                              |    Arjun      |   Arjun      |
-| 5   | in items.js, line 41 should be headers: { "Content-Type": "application/json" }, not             |    Haaris     |   Haaris     |
-      | headers: { "Content-Type": "application/html" }                                                 |    Rushil     |              |
+| 5   | in items.js, line 41 should be headers: { "Content-Type": "application/json" }                  |    Haaris     |   Haaris     |
 | 6   | in items.html, an entire container needed to be made                                            |    Sahishnu   |   Arjun      |
 | 7   | quiz.html has not been included in any navigation bar                                           |    Aaryan     |   Arjun      |
 | 8   | in items.js, lines 37 and 38 have been corrected, where "name" and "description" were changed   |    Rushil     |   Haaris     |
