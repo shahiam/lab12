@@ -9,7 +9,9 @@ app.include_router(items_router, prefix="/items")
 app.include_router(analytics_router)
 app.include_router(quiz_router)
 
+# Commented out unnecessary piece of code
+
 # why the hell did I write this function?
-@app.get("/home")
-async def get_home():
-    return {"message": "Welcome to the Multi-Page FastAPI App!"}
+# @app.get("/home")
+# async def get_home():
+# return {"message": "Welcome to the Multi-Page FastAPI App!"}
