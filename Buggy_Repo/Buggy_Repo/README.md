@@ -49,7 +49,7 @@
 | 10  | in analytics.py, unnecessary initialisation of users list, should be empty                      |    Aaryan     |   Aaryan     |
 | 11  | in profile.js, in deleteBtn, method is supposed to be 'DELETE', not 'PATCH' (line 43)           |    Haaris     |   Arjun      |
 | 12  | in quiz.py, change line 44 to display a random question                                         |    Rushil     |              |
-| 13  | in users.py, there are two instances of @router.post("/") - change symbol/word for one of them  |    Sahishnu   |              |
+| 13  | in users.py, there are two instances of @router.post("/") - change symbol/word for one of them  |    Sahishnu   |   Sahishnu   |
 | 14  | in analytics.py, was only saving the histogram; fix is to return the histogram                  |    Aaryan     |   Aaryan     |
 | 15  | in items.py, router is defined as empty dictionary; fix is to make it a router API function     |    Rushil     |   Aaryan     |
 | 16  | in items.py, there are two instances of @router.post("/") - change symbol/word for one of them  |    Haaris     |              |
