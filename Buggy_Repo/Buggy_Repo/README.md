@@ -37,18 +37,18 @@
 | ID  | Issue Description                                                                               | Identified By | Fixed By     |
 |-----|-------------------------------------------------------------------------------------------------|---------------|--------------|
 | 1   | Style.css is not filled                                                                         |      -        | Whole Team   |
-| 2   | in index.html, the meTa charset should be UTF-8 encoded, not ISO-8859-1                         |    Haaris     |      d       |
-| 3   | in profile.html, the script tag should contain scripts/profile.js, not styles/profile.js        |    Aaryan     |              |
-| 4   | there should be a navigation bar in analytics.html                                              |    Arjun      |      d       |
-| 5   | in items.js, line 41 should be headers: { "Content-Type": "application/json" }, not             |    Haaris     |              |
-      | headers: { "Content-Type": "application/html" }                                                 |    Rushil     |              |
-| 6   | in items.html, an entire container needed to be made                                            |    Sahishnu   |      d       |
-| 7   | quiz.html has not been included in any navigation bar                                           |    Aaryan     |      d       |
+| 2   | in index.html, the meTa charset should be UTF-8 encoded, not ISO-8859-1                         |    Haaris     |     Arjun    |
+| 3   | in profile.html, the script tag should contain scripts/profile.js, not styles/profile.js        |    Aaryan     |        |
+| 4   | there should be a navigation bar in analytics.html                                              |    Arjun      |     Arjun    |
+| 5   | in items.js, line 41 should be headers: { "Content-Type": "application/json" }, not             |    Haaris     |        |
+      | headers: { "Content-Type": "application/html" }                                                 |    Rushil     |       |
+| 6   | in items.html, an entire container needed to be made                                            |    Sahishnu   |     Arjun    |
+| 7   | quiz.html has not been included in any navigation bar                                           |    Aaryan     |     Arjun    |
 | 8   | in items.js, lines 37 and 38 have been corrected, where "name" and "description" were changed   |    Rushil     |              |
       | to "itemName" and "itemDescription".                                                            |    Arjun      |              |
-| 9   | in analytics.js, the baseURL should be "http://localhost:8000", not "http://localhost:8001"     |    Arjun      |      d       |
+| 9   | in analytics.js, the baseURL should be "http://localhost:8000", not "http://localhost:8001"     |    Arjun      |    Arjun     |
 | 10  | in analytics.py, unnecessary initialisation of users list, should be empty                      |    Aaryan     |              |
-| 11  | in profile.js, in deleteBtn, method is supposed to be 'DELETE', not 'PATCH' (line 43)           | Arjun/Haaris  |      d       |
+| 11  | in profile.js, in deleteBtn, method is supposed to be 'DELETE', not 'PATCH' (line 43)           | Arjun/Haaris  |     Arjun    |
 | 12  | in quiz.py, change line 44 to display a random question                                         |    Rushil     |              |
 | 13  | in users.py, there are two instances of @router.post("/") - change symbol/word for one of them  |    Sahishnu   |              |
 | 14  | in analytics.py, was only saving the histogram; fix is to return the histogram                  |    Aaryan     |              |
