@@ -34,11 +34,11 @@ document.getElementById("search").addEventListener("input", (e) => {
 // Chocolate Question : Does React do Server-Side Rendering or Client-Side Rendering?
 document.getElementById("itemForm").addEventListener("submit", async (e) => {
   e.preventDefault();
-  const name = document.getElementById("name").value;
-  const description = document.getElementById("description").value;
+  const name = document.getElementById("itemName").value;
+  const description = document.getElementById("itemDescription").value;
   await fetch(`${baseURL}/items`, {
     method: "POST",
-    headers: { "Content-Type": "application/html" },
+    headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ name, description })
   });
   e.target.reset();
