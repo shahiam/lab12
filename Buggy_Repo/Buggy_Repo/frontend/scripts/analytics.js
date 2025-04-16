@@ -12,7 +12,7 @@ async function loadAnalytics() {
   document.getElementById("maxUserName").textContent = data.stats.max_user_username_length;
   
   // Do I play too much cricket... hmmm...
-  document.getElementById("plot").src = data.plot;
+  document.getElementById("hist").src = data.plot; //changed plot to hist because i am returning hist in analytics.py( Change by Aaryan Shah)
 }
 
 loadAnalytics();
