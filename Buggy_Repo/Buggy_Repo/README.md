@@ -40,11 +40,10 @@
 | 2   | in index.html, the meTa charset should be UTF-8 encoded, not ISO-8859-1                         |    Haaris     |   Arjun      |
 | 3   | in profile.html, the script tag should contain scripts/profile.js, not styles/profile.js        |    Arjun      |   Sahishnu   |
 | 4   | there should be a navigation bar in analytics.html                                              |    Arjun      |   Arjun      |
-| 5   | in items.js, line 41 should be headers: { "Content-Type": "application/json" }, not             |    Haaris     |              |
-      | headers: { "Content-Type": "application/html" }                                                 |    Rushil     |              |
+| 5   | in items.js, line 41 should be headers: { "Content-Type": "application/json" }                  |    Haaris     |   Haaris     |
 | 6   | in items.html, an entire container needed to be made                                            |    Sahishnu   |   Arjun      |
 | 7   | quiz.html has not been included in any navigation bar                                           |    Aaryan     |   Arjun      |
-| 8   | in items.js, lines 37 and 38 have been corrected, where "name" and "description" were changed   |    Rushil     |              |
+| 8   | in items.js, lines 37 and 38 have been corrected, where "name" and "description" were changed   |    Rushil     |   Haaris     |
 |     | to "itemName" and "itemDescription".                                                            |    Arjun      |              |
 | 9   | in analytics.js, the baseURL should be "http://localhost:8000", not "http://localhost:8001"     |    Arjun      |   Arjun      |
 | 10  | in analytics.py, unnecessary initialisation of users list, should be empty                      |    Aaryan     |   Aaryan     |
@@ -60,8 +59,8 @@
 | 20  | in quiz.py, GET with body(data:dict) is invalid, so fix is to to convert to POST                |    Rushil     |              |
 | 21  | in models.py, in item: name should be defined as 'str', NOT 'int'                               |    Rushil     |              |
 | 22  | in users.py, line 30: .delete_one({"_id": ObjectId(user_id)}) corrected from .delete_all()      |   Sahishnu    |   Sahishnu   |
-| 23  |                                                                                                 |               |              |
-| 24  |                                                                                                 |               |              |
+| 23  | deleted home.js                                                                                 |    Haaris     |    Haaris    |
+| 24  | added id in class item in models.py                                                             |    Arjun      |    Aaryan    |
 | 25  |                                                                                                 |               |              |
 | 26  |                                                                                                 |               |              |
 | 27  |                                                                                                 |               |              |
