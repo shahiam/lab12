@@ -27,13 +27,10 @@ async def create_item(item: Item):
     created_item["_id"] = str(created_item["_id"])
     return Item(**created_item)
 
-@router.delete("/{item_id}")
+@router.delete("/{item_id}") # fixed delete function to delete one item
 async def delete_item(item_id: str):
     collection = await get_items_collection()
-    try:
-        result = await collection.delete_one({"_id": ObjectId(item_id)})
-        if result.deleted_count:
-            return {"status": "deleted"}
-        raise HTTPException(status_code=404, detail="Item not found")
-    except:
-        raise HTTPException(status_code=400, detail="Invalid item ID")
+    result = await collection.delete_one({"_id": ObjectId(item_id)})
+    if result.deleted_count:
+        return {"status": "deleted"}
+    raise HTTPException(status_code=404, detail="Item not found")
