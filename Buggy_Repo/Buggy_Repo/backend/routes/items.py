@@ -9,7 +9,7 @@ async def get_items_collection():
     from db import init_db
     return init_db()["items_collection"]
 
-@router.get("/", response_model=List[Item])
+@router.get("/", response_model=List[Item]) # changed repeat of post to get
 async def get_items():
     collection = await get_items_collection()
     items = []
