@@ -52,7 +52,7 @@
 | 12  | in quiz.py, change line 44 to display a random question                                         |    Rushil     |              |
 | 13  | in users.py, there are two instances of @router.post("/") - change symbol/word for one of them  |    Sahishnu   |              |
 | 14  | in analytics.py, was only saving the histogram; fix is to return the histogram                  |    Aaryan     |              |
-| 15  | in items.py, router is defined as empty set; fix is to make it a router API function            |    Rushil     |              |
+| 15  | in items.py, router is defined as empty set; fix is to make it a router API function            |Aaryan/Rushil  |              |
 | 16  | in items.py, there are two instances of @router.post("/") - change symbol/word for one of them  |    Haaris     |              |
 | 17  | in main.py, there was unnecessary block of code starting with @app.get("/home"); commented out  |    Aaryan     |              |
 | 18  | in items.py, delete_one() called twice w/ different IDs; fix - delete 1 item per request        |    Sahishnu   |              |
