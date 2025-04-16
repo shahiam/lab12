@@ -9,3 +9,7 @@ class User(BaseModel):
     bio: str
     
     # You can raise your hands and give the answer to the chocolate question
+class QuizAnswer(BaseModel):
+    id: int
+    answer: str
+    score: int

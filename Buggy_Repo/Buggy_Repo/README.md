@@ -61,8 +61,8 @@
 | 22  | in users.py, line 30: .delete_one({"_id": ObjectId(user_id)}) corrected from .delete_all()      |   Sahishnu    |   Sahishnu   |
 | 23  | deleted home.js                                                                                 |    Haaris     |    Haaris    |
 | 24  | added id in class item in models.py                                                             |    Arjun      |    Aaryan    |
-| 25  |                                                                                                 |               |              |
-| 26  |                                                                                                 |               |              |
+| 25  | added class QuizAnswer to models.py so that i dont have to raise hand                           |   Aaryan      |   Aaryan     |
+| 26  | fixed items.py                                                                                  |     Arjun     |    Arjun     |
 | 27  |                                                                                                 |               |              |
 | 28  |                                                                                                 |               |              |
 | 29  |                                                                                                 |               |              |
