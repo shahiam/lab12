@@ -56,7 +56,7 @@
 | 17  | in main.py, there was unnecessary block of code starting with @app.get("/home"); commented out  |    Aaryan     |   Haaris     |
 | 18  | in items.py, delete_one() called twice w/ different IDs; fix - delete 1 item per request        |    Sahishnu   |              |
 | 19  | in analytics.js, line 15, plot changed to hist since hist is being returned in the file         |    Aaryan     |   Aaryan     |
-| 20  | in quiz.py, GET with body(data:dict) is invalid, so fix is to to convert to POST                |    Rushil     |              |
+| 20  | in quiz.py, GET with body(data:dict) is invalid, so fix is to to convert to POST                |    Rushil     |   Sahishnu    |
 | 21  | in models.py, in item: name should be defined as 'str', NOT 'int'                               |    Rushil     |              |
 | 22  | in users.py, line 30: .delete_one({"_id": ObjectId(user_id)}) corrected from .delete_all()      |   Sahishnu    |   Sahishnu   |
 | 23  | deleted home.js                                                                                 |    Haaris     |    Haaris    |
