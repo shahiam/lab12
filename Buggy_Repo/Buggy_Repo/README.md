@@ -60,7 +60,7 @@
 | 21  | in models.py, in item: name should be defined as 'str', NOT 'int'                               |    Rushil     |              |
 | 22  | in users.py, line 30: .delete_one({"_id": ObjectId(user_id)}) corrected from .delete_all()      |   Sahishnu    |   Sahishnu   |
 | 23  | deleted home.js                                                                                 |    Haaris     |    Haaris    |
-| 24  |                                                                                                 |               |              |
+| 24  | added id in class item in models.py                                                             |    Arjun      |    Aaryan    |
 | 25  |                                                                                                 |               |              |
 | 26  |                                                                                                 |               |              |
 | 27  |                                                                                                 |               |              |
