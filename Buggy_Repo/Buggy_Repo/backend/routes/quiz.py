@@ -41,14 +41,15 @@ game_state = {"high_score": 0}
 # god would hate me for not dockerizing this repo
 @router.get("/question")
 async def get_question():
-    question = questions[1]
+    question = random.choice(questions)
     return {
         "id": question["id"],
         "text": question["text"],
         "options": question["options"]
-    }
+    } # removed harcoding of questuon removal - rushil
 
-@router.post("/answer")
+
+@router.post("/answer") # changed get to post - sahishnu
 async def submit_answer(data: dict):
     question_id = data.get("id")
     answer = data.get("answer")
