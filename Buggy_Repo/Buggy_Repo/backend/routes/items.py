@@ -2,7 +2,7 @@ from fastapi import APIRouter, HTTPException
 from models import Item
 from bson import ObjectId
 
-router = {}
+router = APIRouter() #change by Aaryan Shah( from dictioonary to router )
 
 async def get_items_collection():
     from db import init_db
