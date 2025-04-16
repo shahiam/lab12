@@ -27,12 +27,16 @@
 ### Add the names of the members and roll numbers of your team below
 
 - Name : Roll Number
+- Aaryan Shah : 2024113014
+- Arjun Dingankar : 2024113024
+- Sahisnu Pawankumar : 2024113016
+- Haaris Iqbal : 2024101045
 
 ### Table to keep track
 
 | ID  | Issue Description                        | Identified By | Fixed By     |
 |-----|------------------------------------------|---------------|--------------|
-| 1   | Style.css is not filled                                    |         Narain |     Whole Team     |
+| 1   | Style.css is not filled                  |               |              |     Whole Team     |
 | 2   |                                          |               |              |
 | 3   |                                          |               |              |
 | 4   |                                          |               |              |

@@ -26,7 +26,7 @@ async def get_analytics():
     async for item in items_collection.find():
         items.append(item)
     # damm this is the last lab
-    users = ["A1","B2","C3"]
+    users = [] #Change by Aaryan Shah ( uneccessarily initiazlied to A1 etc should be empty )
     async for user in users_collection.find():
         users.append(user)
     
