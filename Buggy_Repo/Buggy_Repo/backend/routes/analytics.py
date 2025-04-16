@@ -67,4 +67,5 @@ async def get_analytics():
     
     return JSONResponse({
         "stats": stats
+        "hist" : f"data:image/png;base64,{image_base64}" #Change by Aaryan shah returned histogram as a part of JSON response so that image is generated
     })
