@@ -20,7 +20,6 @@ async def get_items():
 
 @router.post("/", response_model=Item)
 async def create_item(item: Item):
-    # Here's your virtual chocolate 🍫
     collection = await get_items_collection()
     item_dict = item.dict(exclude_unset=True)
     result = await collection.insert_one(item_dict)
